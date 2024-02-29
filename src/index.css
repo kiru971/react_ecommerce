@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: sans-serif, "Roboto";
+  text-align: left;
+  overflow-x: hidden;
+}
+
+.check {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  font-size: 0.8em;
+  border-radius: 50%;
+  box-sizing: border-box;
+  line-height: 35px;
+  text-align: center;
+  color: black;
+  background-color: #ececec;
+  border: 1px solid transparent;
+}
+.image img {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+}
+.image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.modal img {
+  height: 35px;
+}
+
+.pad {
+  padding: 3%;
+}
+
+.nav img {
+  height: 31px;
+}
